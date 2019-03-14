@@ -64,7 +64,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # project stuff
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 1.1.4'
   gem 'rails_12factor'
 end
 
